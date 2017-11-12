@@ -1653,6 +1653,9 @@ h3.agileits-icons-title {
 	}	
 }
 @media (max-width: 480px){
+	.mwc-search input{
+		width:100%;
+	}
 	.bs-glyphicons li {
 		width: 31%;
 	}
