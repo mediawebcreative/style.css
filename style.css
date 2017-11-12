@@ -44,7 +44,7 @@ label{
 }
 .fixed-banner{
 	height: 450px;
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px -20px no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Media-Web-Creative---Logo_zps2np01fn9.jpg') 0px -20px no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
