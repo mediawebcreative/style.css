@@ -1620,7 +1620,7 @@ h3.agileits-icons-title {
 @media (max-width:991px){
 	.fixed-banner{
 		height: 220px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Logo2_zpsqc7sucul.png') 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	h3.agileits-icons-title {
@@ -1933,7 +1933,7 @@ h2.typoh2{
 @media (max-width: 320px){
 	.fixed-banner{
 		height: 150px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Logo2_zpsqc7sucul.png') 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	.grid_4 {
@@ -2204,7 +2204,7 @@ h2.typoh2{
 @media (max-width: 414px){
 	.fixed-banner{
 		height: 150px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Logo2_zpsqc7sucul.png') 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	.single-left1 h3 {
