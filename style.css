@@ -44,7 +44,7 @@ label{
 }
 .fixed-banner{
 	height: 450px;
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Media-Web-Creative---Logo_zps2np01fn9.jpg') 0px -20px no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px -20px no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
@@ -64,12 +64,15 @@ label{
 .btn-default-mwc:focus,
 .btn-default-mwc:hover{
     color: #fff;
-    background-color: #2bb9ab;
-    border-color: #2bb9ab;
+    background-color: #38acbf;
+    border-color: #38acbf;
 }
 .pencarian-media-web-creative {
+    display: inline-block;
     float: right;
-    margin-top: 9px;
+    position: absolute;
+    right: 15px;
+    text-align: right;
 }
 .pencarian-media-web-creative a i {
     color: #fff;
@@ -115,7 +118,7 @@ label{
 }
 .mwc-search-trigger, .mwc-nav-trigger {
 	position: relative;
-	display: block;
+	display: inline-grid;
 	width: 44px;
 	height: 44px;
 	overflow: hidden;
@@ -251,7 +254,7 @@ label{
     border: none;
     background: #ffffff;
     float: right;
-    width: 25%;
+    /* width: 25%; */
     padding: 0 5%;
     -webkit-box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
@@ -262,7 +265,7 @@ label{
     -o-appearance: none;
     font-size: 1em;
     padding: 1em 2em;
-    color: #2bb9ab;
+    color: #38acbf;
     font-weight: 700;
 }
 .mwc-search input::-webkit-input-placeholder {
@@ -297,12 +300,12 @@ header {
 }
 .mwclayouts-top-strip {
     padding: 20px 0;
-    border-top: 2px solid #2bb9ab;
+    border-top: 2px solid #38acbf;
 }
 .logo a {
     font-size: 40px;
     text-decoration: none;
-    color: #2bb9ab;
+    color: #38acbf;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -330,7 +333,7 @@ header {
     -moz-transition: 0.5s all;
 }
 .mwcls-social-icons i:hover,.mwcls-social i:hover {
-	color:#2bb9ab;
+	color:#38acbf;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -352,7 +355,7 @@ header {
 }
 .agileits-contact-info ul li span {
     left: -.5em;
-    color: #2bb9ab;
+    color: #38acbf;
 }
 .agileits-contact-info ul li:nth-child(2) {
     margin-left: 25px;
@@ -362,7 +365,7 @@ header {
     vertical-align: text-bottom;
 }
 .agileits-contact-info ul li a:hover {
-    color: #2bb9ab;
+    color: #38acbf;
 }
 /*-- //header --*/
 .agileinfo-dot {
@@ -735,7 +738,6 @@ header {
     top: -20px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border: none;
     float: left;
 }
 .navbar-nav {
@@ -769,10 +771,10 @@ header {
 .navbar-default .navbar-nav>.open>a:hover
 {
 	color: #FFF;
-    background-color: #2bb9ab;
+    background-color: #38acbf;
 }
 .navbar-default .navbar-nav>li>a.active{
-    color: #2bb9ab;
+    color: #38acbf;
     font-weight: 700;
 }
 .navbar-default .navbar-nav>li>a.active::after{
@@ -783,8 +785,8 @@ header {
 	bottom: -6px;
 	width: 100%;
 	display: block;
-    color: #2bb9ab;
-    border-bottom: 5px solid #2bb9ab;
+    color: #38acbf;
+    border-bottom: 5px solid #38acbf;
 }
 .navbar {
     border-radius: 0px;
@@ -823,7 +825,7 @@ header {
     top: 0;
     content: '';
     z-index: 1;
-    background: #2bb9ab;
+    background: #38acbf;
     padding: 10px;
     color: #FFF;	
 }
@@ -850,7 +852,7 @@ header {
 	margin: 2em 0;
 }
 .mwcagile-right h3 a:hover{
-    color: #2bb9ab;
+    color: #38acbf;
 }
 .mwcagile-right p {
     font-size: 14px;
@@ -862,17 +864,17 @@ a.agileits.mwclayouts {
     font-weight: 600;
      color: #FFF;
     padding: 9px 25px;
-   background-color: #2bb9ab;
+   background-color: #38acbf;
     margin-top: 9px;
     letter-spacing: 1px;
     display: inline-block;
     text-decoration: none;
     font-size: 16px;
-	 border: 1px solid #2bb9ab;
+	 border: 1px solid #38acbf;
 }
 a.agileits.mwclayouts:hover {
-    border: 1px solid #2bb9ab;
-	color: #2bb9ab;
+    border: 1px solid #38acbf;
+	color: #38acbf;
 	background:none;
 }
 span.glyphicon.agileits.mwclayouts.glyphicon-arrow-right {
@@ -911,7 +913,7 @@ span.glyphicon.agileits.mwclayouts.glyphicon-arrow-right {
     font-size: 1.4em;
     color: #212121;
     padding-left: .8em;
-    border-left: 4px solid #2bb9ab;
+    border-left: 4px solid #38acbf;
     font-weight: 600;
     padding: 10px;
 }
@@ -920,7 +922,7 @@ span.glyphicon.agileits.mwclayouts.glyphicon-arrow-right {
     font-size: 1.4em;
     color: #212121;
     padding-left: .8em;
-    border-left: 3px solid #2bb9ab;
+    border-left: 3px solid #38acbf;
 	font-weight:600;
 }
 
@@ -994,7 +996,7 @@ a.pa_italic:focus {
     text-transform: capitalize;
 }
 .agileits_recent_posts_gridr h4 a:hover,.mwcls_popular_posts h4 a:hover {
-    color: #2bb9ab;
+    color: #38acbf;
 }
 .agileits_recent_posts_gridr ul li {
     display: inline-block;
@@ -1012,7 +1014,7 @@ a.pa_italic:focus {
     font-size: 1.4em;
     color: #212121;
     padding-left: .8em;
-    border-left: 4px solid #2bb9ab;
+    border-left: 4px solid #38acbf;
     font-weight: 600;
     padding: 10px;
 }
@@ -1033,7 +1035,7 @@ a.pa_italic:focus {
     font-size: 1.4em;
     color: #212121;
     padding-left: .8em;
-    border-left: 4px solid #2bb9ab;
+    border-left: 4px solid #38acbf;
     font-weight: 600;
     padding: 10px;
 }
@@ -1053,21 +1055,21 @@ ul.tag li a {
     padding: 7px 16px 5px;
     font-size: 14px;
     color: #fff;
-    border: 2px solid #2bb9ab;
+    border: 2px solid #38acbf;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
-    background: #2bb9ab;
+    background: #38acbf;
 }
 ul.tag li a:hover{
    background:#FFF;
    color:#bbb;
-    border: 2px solid #2bb9ab;
+    border: 2px solid #38acbf;
 }
 .agileits_recent_posts_gridr ul li span {
     padding-right: .5em;
-    color:#2bb9ab;
+    color:#38acbf;
 }
 .agileits_recent_posts_gridr ul li a {
     color: #999;
@@ -1101,18 +1103,18 @@ ul.tag li a:hover{
 	text-decoration:none;
 }
 .mwcl_categories ul li a:hover{
-	color:#2bb9ab;
+	color:#38acbf;
 }
 .mwcl_categories ul li a span{
 	padding-right:1em;
-	color:#2bb9ab;
+	color:#38acbf;
 }
 .info_sosmed h3{
     text-transform: uppercase;
     font-size: 1.4em;
     color: #212121;
     padding-left: .8em;
-    border-left: 4px solid #2bb9ab;
+    border-left: 4px solid #38acbf;
     font-weight: 600;
     padding: 10px;
 }
@@ -1138,8 +1140,8 @@ ul.tag li a:hover{
 .mwcls-social-icons-1 i:hover,.mwcls-socia-1 i:hover {
 	background: transparent;
 	background:#FFF;
-	color: #2bb9ab;
-    box-shadow: 0px 0px 0px 1px #2bb9ab;
+	color: #38acbf;
+    box-shadow: 0px 0px 0px 1px #38acbf;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1185,7 +1187,7 @@ ul.tag li a:hover{
 	text-decoration:none;
 }
 .footer-agile-info p a:hover{
-    color: #2bb9ab;
+    color: #38acbf;
 }
 .mwc-agile input[type="email"] {
     outline: none;
@@ -1200,18 +1202,18 @@ ul.tag li a:hover{
     outline: none;
     padding: 9px 0;
     width: 25%;
-    background: #2bb9ab;
+    background: #38acbf;
     border: none;
     font-size: 15px;
     letter-spacing: 2px;
     color: #fff;
     /* font-weight: 600; */
-    border: 1px solid #2bb9ab;
+    border: 1px solid #38acbf;
 }
 .mwc-agile input[type="submit"]:hover {
-    border:1px solid #2bb9ab;
+    border:1px solid #38acbf;
 	background:none;
-	 color: #2bb9ab;
+	 color: #38acbf;
 }
 /*-- copyright --*/
 .copyright{
@@ -1225,7 +1227,7 @@ ul.tag li a:hover{
     font-size: 16px;
 }
 .agileinfo p a{
-	color: #2bb9ab;
+	color: #38acbf;
 }
 .agileinfo p a:hover{
     color: #fff;	
@@ -1428,7 +1430,7 @@ ul.tag li a:hover{
 .mwc_agile_mail_grid input[type="submit"] {
     outline: none;
     width: 100%;
-    background: #2bb9ab;
+    background: #38acbf;
     color: #fff;
     padding: 1em 0;
     font-size: 1em;
@@ -1449,12 +1451,12 @@ ul.tag li a:hover{
 }
 .breadcrumbs {
     padding: 1.5em 0;
-    background: #2bb9ab;
+    background: #38acbf;
 }
 .breadcrumb {
     margin-bottom: 0 !important;
 	padding: 0 !important;
-	background-color: #2bb9ab !important;
+	background-color: #38acbf !important;
 }
 .breadcrumb1 li {
     font-size: 1.3em;
@@ -1550,7 +1552,7 @@ ul.bs-glyphicons-list li:hover span {
 }
 h3.icon-subheading {
 	font-size: 25px;
-    color: #2bb9ab !important;
+    color: #38acbf !important;
     margin: 30px 0 15px;
 }
 h3.agileits-icons-title {
@@ -1605,6 +1607,11 @@ h3.agileits-icons-title {
     text-align: center;
     word-wrap: break-word;
 }
+@media (min-width:1080px){
+	.pencarian-media-web-creative{
+		padding-top: 8px;
+	}
+}
 @media (max-width:1080px){
 	.icon-box{
 		width: 33.33%;
@@ -1613,7 +1620,7 @@ h3.agileits-icons-title {
 @media (max-width:991px){
 	.fixed-banner{
 		height: 220px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Media-Web-Creative---Logo_zps2np01fn9.jpg') 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	h3.agileits-icons-title {
@@ -1627,7 +1634,10 @@ h3.agileits-icons-title {
 	}
 }
 @media (max-width:768px){
-
+	.navbar-brand>img{
+		width: 100px;
+		top: -19px;
+	}
 	h3.agileits-icons-title {
 		font-size: 28px;
 	}
@@ -1653,9 +1663,6 @@ h3.agileits-icons-title {
 	}	
 }
 @media (max-width: 480px){
-	.mwc-search input{
-		width:100%;
-	}
 	.bs-glyphicons li {
 		width: 31%;
 	}
@@ -1747,7 +1754,7 @@ li.list-group-item1 {
 }
 .grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
 	margin-bottom: 1em;
-    color:#2bb9ab;
+    color:#38acbf;
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	border-top: none !important;
@@ -1926,7 +1933,7 @@ h2.typoh2{
 @media (max-width: 320px){
 	.fixed-banner{
 		height: 150px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Media-Web-Creative---Logo_zps2np01fn9.jpg') 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	.grid_4 {
@@ -1974,7 +1981,7 @@ h2.typoh2{
 	margin-right:3em;
 }
 .single-left1 ul li span{
-	color: #2bb9ab;
+	color: #38acbf;
     padding-right: 1em;
 }
 .single-left1 ul li a{
@@ -1983,7 +1990,7 @@ h2.typoh2{
 	text-decoration:none;
 }
 .single-left1 ul li a:hover{
-	color:#2bb9ab;
+	color:#38acbf;
 }
 .single-left1 ul {
     text-align:left;
@@ -2021,7 +2028,7 @@ h2.typoh2{
 .admin a{
 	display: block;
     text-align: right;
-    color: #2bb9ab;
+    color: #38acbf;
     font-size: 1em;
     text-decoration: none;
 }
@@ -2034,7 +2041,7 @@ h2.typoh2{
 
 .comments-grid-left img{
 	padding:.3em;
-	border:2px solid #2bb9ab;
+	border:2px solid #38acbf;
 	border-radius:50px;
 }
 .comments-grid-right ul{
@@ -2051,7 +2058,7 @@ h2.typoh2{
 	font-style:normal;
 }
 .comments-grid-right ul li a{
-	color:#2bb9ab;
+	color:#38acbf;
 	text-decoration:none;
 }
 .comments-grid-right ul li a:hover{
@@ -2064,7 +2071,7 @@ h2.typoh2{
     text-transform: uppercase;
 }
 .comments-grid-right h4 a:hover{
-	color:#2bb9ab;
+	color:#38acbf;
 }
 .comments-grid-right p{
 	font-size:14px;
@@ -2105,7 +2112,7 @@ h2.typoh2{
 .leave-coment-form input[type="submit"]{
 	outline: none;
     border: none;
-    background: #2bb9ab;
+    background: #38acbf;
     padding: 10px 0;
     font-size: 14px;
     text-transform: uppercase;
@@ -2150,7 +2157,7 @@ h2.typoh2{
 @media (max-width:640px){
 	.fixed-banner{
 		height: 200px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Media-Web-Creative---Logo_zps2np01fn9.jpg') 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	.single-left1 h3 {
@@ -2197,7 +2204,7 @@ h2.typoh2{
 @media (max-width: 414px){
 	.fixed-banner{
 		height: 150px;
-	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url('http://i1255.photobucket.com/albums/hh636/mediawebcreative/Media-Web-Creative---Logo_zps2np01fn9.jpg') 0px 0px no-repeat;
+	    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.0)), url(../images/banner.jpg) 0px 0px no-repeat;
 	    background-size: 100% 100%;
 	}
 	.single-left1 h3 {
@@ -2257,7 +2264,7 @@ h2.typoh2{
 }
 .single-left2-left ul li i {
     padding-right: 1.5em;
-    color: #2bb9ab;
+    color: #38acbf;
 }
 .single-left2-left ul li a {
     color: #999;
@@ -2283,7 +2290,7 @@ h2.typoh2{
     height: 80px;
     border-radius: 80px;
     text-align: center;
-    background: #2bb9ab;
+    background: #38acbf;
     margin: 0 auto;
 }
 .agileits_w3layouts_classes_grid1_right i{
@@ -2335,7 +2342,7 @@ h2.typoh2{
     left: 5%;
     width: 55px;
     height: 55px;
-    background: #2bb9ab;
+    background: #38acbf;
     border-radius: 50px;
     border: 2px solid #fff;
     text-align: center;
@@ -2468,7 +2475,7 @@ body .bar_group__bar.thin::before {
 body .bar_group__bar.thin {
   width: 0%;
   height: 30px;
-  background:#2bb9ab;
+  background:#38acbf;
   margin-bottom: 20px;
   -webkit-transition: width 1s;
           transition: width 1s;
@@ -2655,12 +2662,12 @@ nav.events {
     text-align: center;
 }
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    background-color: #2bb9ab;
-    border-color:  #2bb9ab;
+    background-color: #38acbf;
+    border-color:  #38acbf;
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-	background-color: #2bb9ab;
-    border-color:  #2bb9ab;
+	background-color: #38acbf;
+    border-color:  #38acbf;
 	color:#fff;
 }
 /*--events end here--*/
@@ -2725,17 +2732,17 @@ nav.events {
 /*-- to-top --*/
 #toTop {
 	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 20px;
-	right: 2%;
-	overflow: hidden;
-	z-index: 999; 
-	width: 32px;
-	height: 32px;
-	border: none;
-	text-indent: 100%;
-	background: url(../images/top-arrow.png) no-repeat 0px 0px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    border: none;
+    text-indent: 100%;
+    background: url(../images/top-arrow-2.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
@@ -2760,7 +2767,7 @@ nav.events {
     padding: 15px 9px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    width: 95%;
+    width: 100%;
 }
 .pencarian-media-web-creative {
     margin-top: 3px;
@@ -2794,7 +2801,7 @@ nav.events {
     padding: 15px 4px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    width: 93%;
+    width: 100%;
 }
 
 .mwcagile-middle {
@@ -2899,15 +2906,15 @@ nav.events {
 		text-align: center;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-		color: #2bb9ab;
+		color: #38acbf;
 		background-color: #fff;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #ffffff;
 	}
 	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-		background-color: #2bb9ab;
-	    border:1px solid #2bb9ab;
+		background-color: #38acbf;
+	    border:1px solid #38acbf;
 	}
 	.navbar-nav>li {
 		display: block;
@@ -2919,13 +2926,13 @@ nav.events {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-right: 0px; 
     margin-left: 0px; 
-    width: 93%;
+    width: 100%;
     float: left;
 }
 .navbar-toggle {
     float: left;
-	background-color: #2bb9ab;
-    border:1px solid #2bb9ab;
+	background-color: #38acbf;
+    border:1px solid #38acbf!important;
     border-radius: 4px;
 }
 .mwc-rgt-top1 {
@@ -2934,7 +2941,7 @@ nav.events {
 }
 @media (max-width: 667px){
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    width: 88%;
+    width: 100%;
 }
 .mwc-rgt-top1 {
     width: 49.5%;
@@ -3070,7 +3077,7 @@ nav.events {
     font-size: 32px;
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    width: 84%;
+    width: 100%;
 }
 
 .fea-tp {
@@ -3115,7 +3122,7 @@ nav.events {
     font-size: 11px;
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    width: 75%;
+    width: 100%;
 }
 .btm-wthree-left {
     width: 100%;
