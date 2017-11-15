@@ -54,7 +54,7 @@ label{
 }
 .btn-default-mwc>span{
 	color: white;
-	font-size:small;
+	font-size:small!important;
 }
 .btn-default-mwc{
 	color: #525252;
