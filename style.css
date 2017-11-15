@@ -1244,6 +1244,7 @@ ul.tag li a:hover{
     -webkit-transition: all 1s;
     transition: all 1s;
     width: 100%;
+    min-height: 140px;
 }
 .mwcagile_special_deals_grid_left_grid:hover img {
     -moz-transform: scale3d(1.1, 1.1, 1);
