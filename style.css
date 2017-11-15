@@ -839,9 +839,9 @@ header {
 }
 
 .mwcagile-right h3 {
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 .mwcagile-right h3 a{
     color: #212121;
@@ -855,10 +855,10 @@ header {
     color: #38acbf;
 }
 .mwcagile-right p {
-    font-size: 14px;
-    color: #777;
-    margin: 20px 0;
-    line-height: 26px;
+	font-size: 14px;
+	color: #7e7e7e;
+	margin: 15px 0;
+	line-height: 26px;
 }
 a.agileits.mwclayouts {
     font-weight: 600;
